@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>James Toney</title>
+    <link href="style/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="images/imgs/favicon.ico" rel="shortcut icon" />
+    <link href="style/style.css" rel="stylesheet" />
+    <link href="style/mobile.css" rel="stylesheet" />
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.maskedinput.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <style>
+      .preloader {
+        position: absolute;
+        background-color: black;
+        z-index: 100;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+      }
+      .preloader > div {
+        width: 250px;
+        height: 250px;
+        margin: auto;
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+      }
+      .preloader img {
+        max-width: 100%;
+      }
+      .progress_bar {
+        margin: 20px 0px 0px 10px;
+      }
+    </style>
+    <div class="preloader">
+      <div>
+        <img src="images/imgs/face.png" />
+        <img src="images/imgs/progress_bar.gif" class="progress_bar" />
+      </div>
+    </div>
+    <!--preloader-->
+    <div class="container">
+      <i class="fa fa-bars" aria-hidden="true" id="mobile_menu"></i>
+      <div class="header noselect">
+        <ul class="nav">
+          <li id="home" class="active">
+            HOME
+            <div class="divider"></div>
+          </li>
+          <li id="gallery">
+            GALLERY
+            <div class="divider"></div>
+          </li>
+          <li id="about">
+            ABOUT
+            <div class="divider"></div>
+          </li>
+          <li id="contact">CONTACT</li>
+          <li class="social_icons">
+            <i
+              class="fa fa-facebook-square"
+              aria-hidden="true"
+              id="facebook"
+            ></i>
+            <i
+              class="fa fa-google-plus-square"
+              aria-hidden="true"
+              id="google"
+            ></i>
+            <i class="fa fa-twitter-square" aria-hidden="true" id="twitter"></i>
+          </li>
+        </ul>
+      </div>
+
+      <div class="content">
+        <div class="home">
+          <h1 class="person_name">James <span>Toney</span></h1>
+          <h3 class="person_status">Fighter-Trainer</h3>
+          <div class="social_icons_mobile">
+            <i
+              class="fa fa-facebook-square"
+              aria-hidden="true"
+              id="facebook"
+            ></i>
+            <i
+              class="fa fa-google-plus-square"
+              aria-hidden="true"
+              id="google"
+            ></i>
+            <i class="fa fa-twitter-square" aria-hidden="true" id="twitter"></i>
+          </div>
+        </div>
+        <!--home-->
+        <div class="gallery">
+          <div class="gallery_big1"><img src="images/gallery/1.jpg" /></div>
+          <div><img src="images/gallery/2.jpg" /></div>
+          <div><img src="images/gallery/3.jpg" /></div>
+          <div><img src="images/gallery/4.jpg" /></div>
+          <div><img src="images/gallery/5.jpg" /></div>
+
+          <div class="gallery_big2"><img src="images/gallery/6.jpg" /></div>
+          <div><img src="images/gallery/7.jpg" /></div>
+          <div><img src="images/gallery/8.jpg" /></div>
+          <div><img src="images/gallery/9.jpg" /></div>
+          <div><img src="images/gallery/10.jpg" /></div>
+        </div>
+        <!--gallery-->
+        <div class="about">
+          <p>
+            James Nathaniel Toney (born August 24, 1968) is an American former
+            professional boxer who competed from 1988 to 2017. Nicknamed "Lights
+            Out", he held multiple world championships in three weight classes,
+            including the IBF and lineal middleweight titles, IBF super
+            middleweight title, and the IBF cruiserweight title. Toney also
+            challenged twice for a world heavyweight title. He competed in
+            sixteen world title bouts, and defeated ten current or former world
+            champions during his career. Stylistically a defensive boxer, Toney
+            utilized the shoulder roll technique taught to him by veteran
+            trainer Bill Miller, who had once trained heavyweight champion
+            Ezzard Charles. Toney was an exceptional counterpuncher and inside
+            fighter, who often preferred to fight off the ropes. He possessed
+            fast hand speed and respectable punching power throughout his career
+            and is also noted for his toughness, having never lost any of his 92
+            professional bouts via stoppage. In 1991 and 2003, Toney was voted
+            Fighter of the Year by The Ring magazine and the Boxing Writers
+            Association of America. In 2011, The Ring magazine ranked him as
+            tenth on their list of the "10 best middleweight title holders of
+            the last 50 years. In 2001, Toney played the role of Joe Frazier in
+            the movie Ali alongside Will Smith. <br />
+            He is currently being managed by Andrew "Hamburger" Rios.
+          </p>
+        </div>
+        <!--about-->
+        <div class="contact">
+          <div class="address">
+            <div class="map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13215.149476661207!2d-118.33674081538385!3d34.10058718948311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bf3023b51eed%3A0xab6d6659f18fd4f1!2sLos+Angeles%2C+CA+90028!5e0!3m2!1sen!2s!4v1507804278240"
+                width="355"
+                height="310"
+                frameborder="0"
+                style="border:0"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="contact_info">
+              <p class="street">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>Los Angeles,
+                CA 90028
+              </p>
+              <p class="mobile">
+                <i class="fa fa-mobile" aria-hidden="true"></i>(747)111-1111
+              </p>
+              <p class="email">
+                <i class="fa fa-at" aria-hidden="true"></i
+                >arios@hamburgerproductions.com
+              </p>
+            </div>
+          </div>
+
+          <div class="form">
+            <i class="fa fa-user-o" aria-hidden="true"></i>
+            <i class="fa fa-at" aria-hidden="true"></i>
+            <i class="fa fa-mobile" aria-hidden="true"></i>
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            <input
+              type="text"
+              id="name"
+              placeholder="Name"
+              spellcheck="false"
+            />
+            <input
+              type="text"
+              id="email"
+              placeholder="Email"
+              spellcheck="false"
+            />
+            <input type="text" id="phone" placeholder="Phone" />
+            <textarea
+              id="message"
+              placeholder="Message"
+              spellcheck="false"
+            ></textarea>
+            <input type="submit" id="submit" value="SEND" />
+          </div>
+        </div>
+        <!--contact-->
+      </div>
+      <!--content-->
+
+      <div class="footer">
+        <i class="fa fa-angle-left" aria-hidden="true" id="left_arrow"></i>
+        <i class="fa fa-angle-right" aria-hidden="true" id="right_arrow"></i>
+        <div class="footer_gallery">
+          <div class="thumbnails">
+            <div><img src="images/img1.jpg" /></div>
+            <div><img src="images/img2.jpg" /></div>
+            <div><img src="images/img3.jpg" /></div>
+            <div><img src="images/img4.jpg" /></div>
+            <div><img src="images/img5.jpg" /></div>
+            <div><img src="images/img6.jpg" /></div>
+            <div><img src="images/img7.jpg" /></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Container-->
+    <div class="full_screen_gall">
+      <i class="fa fa-angle-left" aria-hidden="true" id="left_arrow_big"></i>
+      <i class="fa fa-angle-right" aria-hidden="true" id="right_arrow_big"></i>
+      <div id="close"></div>
+      <img src="" />
+    </div>
+    <!--full_screen_gall-->
+  </body>
+</html>
