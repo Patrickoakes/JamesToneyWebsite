@@ -180,10 +180,10 @@ body {
 .person_status {
   color: black;
   font-family: verdana;
-  font-size: 42px;
-  font-weight: normal;
-  margin-left: 322px;
-  margin-top: -18px;
+  font-size: 23px;
+  font-weight: 900;
+  margin-left: 300px;
+  /*margin-top: -1px;*/
 }
 /*-------------- End Home Page --------------*/
 
